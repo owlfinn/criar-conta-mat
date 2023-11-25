@@ -15,7 +15,7 @@ def gerarproblema():
 
 for i in range(user_replay):
     ex, r = gerarproblema()
-    user_r = int(input(f'PROBLEMA {i+1}: {ex} ({r}) '))
+    user_r = int(input(f'PROBLEMA {i+1}: {ex} '))
     
     while True:
         if user_r == r:
