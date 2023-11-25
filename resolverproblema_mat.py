@@ -22,7 +22,6 @@ for i in range(user_replay):
             break
         else:
             e += 1
-            print("e")
             break
 
 print(f'O seu total de acertos foi: {user_replay - e}')
